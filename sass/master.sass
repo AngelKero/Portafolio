@@ -1,0 +1,33 @@
+/* Color Theme Swatches in RGBA */
+$Senyera-Futur-1-rgba: rgba(2,73,89, 1)
+$Senyera-Futur-2-rgba: rgba(2,126,140, 1)
+$Senyera-Futur-3-rgba: rgba(251,251,242, 1)
+$Senyera-Futur-4-rgba: rgba(242,205,42, 1)
+$Senyera-Futur-5-rgba: rgba(181,65,29, 1)
+
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+    &::selection
+        background: $Senyera-Futur-5-rgba
+        color: white
+
+body
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px
+    background: #fff
+    padding-bottom: 90vh
+
+.titulo
+  font-family: 'Oxanium', Arial
+  text-align: center
+  font-weight: 300
+  letter-spacing: 2px
+  font-size: 2.3em
+  color: $Senyera-Futur-5-rgba
+  margin-bottom: 50px
+
+@import header
+@import acerca
+@import redes

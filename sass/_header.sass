@@ -1,0 +1,82 @@
+$opacidad-fondo: 1
+header
+    height: 85vh
+    position: relative
+    background: url('../img/bg.jpg'), rgba($Senyera-Futur-2-rgba, $opacidad-fondo) /* fallback for old browsers */
+    background: url('../img/bg.jpg'), -webkit-linear-gradient(to right, rgba($Senyera-Futur-2-rgba, $opacidad-fondo), rgba( $Senyera-Futur-5-rgba, $opacidad-fondo))  /* Chrome 10-25, Safari 5.1-6 */
+    background: url('../img/bg.jpg'), linear-gradient(to right, rgba($Senyera-Futur-2-rgba, $opacidad-fondo), rgba($Senyera-Futur-5-rgba, $opacidad-fondo))  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed
+    background-position: center center
+    background-blend-mode: overlay
+    background-repeat: no-repeat
+    background-size: cover
+    overflow: hidden
+    nav
+        margin-top: 1em
+        ul
+            list-style: none
+            text-align: right
+            li
+                display: inline-block
+                margin-left: 1.7em
+                a
+                    font-family: 'Oxanium', Arial
+                    width: 100px
+                    position: relative
+                    font-size: 1.1em
+                    color: white
+                    padding: 0px 5px 10px 0px
+                    &:before
+                        content: ""
+                        background: $Senyera-Futur-4-rgba
+                        width: 0%
+                        height: 4px
+                        position: absolute
+                        left: 0
+                        bottom: 0
+                        transition: width .3s linear
+                    &:hover
+                        text-decoration: none
+                        color: white
+                    &:hover:before
+                        width: 100%
+    .contenedor-texto
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -70%)
+        .texto
+            font-family: 'Oxanium', Arial
+            display: inline-block
+            @keyframes neon
+                0%,25%
+                    box-shadow: 0px 0px 10px 4px $Senyera-Futur-2-rgba, 0px 0px 10px 4px $Senyera-Futur-2-rgba inset
+                    border: 5px solid $Senyera-Futur-2-rgba
+                50%
+                    box-shadow: 0px 0px 10px 4px $Senyera-Futur-5-rgba, 0px 0px 10px 4px $Senyera-Futur-5-rgba inset
+                    border: 5px solid $Senyera-Futur-5-rgba
+                100%
+                    box-shadow: 0px 0px 10px 4px $Senyera-Futur-2-rgba, 0px 0px 10px 4px $Senyera-Futur-2-rgba inset
+                    border: 5px solid $Senyera-Futur-2-rgba
+            padding: 20px 30px
+            text-align: center
+            color: #ffffff
+            border-radius: 10px
+            animation: neon 3s linear infinite
+            .nombre
+                font-weight: 300
+                font-size: 3.2em
+                margin-bottom: .5em
+                letter-spacing: 1px
+                letter-spacing: 1px
+                text-decoration: underline
+                font-style: italic
+            .profesion
+                font-size: 1.8em
+                font-weight: 200
+                letter-spacing: 2px
+    .wave
+        overflow: hidden
+        position: absolute
+        bottom: 0
+        width: 100%
