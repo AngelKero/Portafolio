@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div class="col-5 d-flex flex-column justify-content-center">
-                        <img src="img/laptop" alt="" class="w-100 laptop-tecnologias" data-aos="zoom-in-up">
+                        <img src="img/laptop.jpg" alt="" class="w-100 laptop-tecnologias" data-aos="zoom-in-up">
                     </div>
                 </div>
                 <div class="row otras-habilidades d-flex justify-content-lg-around mt-5">
