@@ -104,7 +104,7 @@
                         <h3 class="titulo mt-4" data-aos="fade-left">Mis habilidades____</h3>
                     </div>
                 </div>
-                <div class="row d-lg-block d-md-flex flex-column-reverse">
+                <div class="row d-lg-block d-md-flex flex-md-column-reverse">
                     <div class="col-lg-7 col-md-12 tecnologias">
                         <p class="mb-4 descrpcion">Actualmento me dedico mas al menejo de fron-end, pero mis habilidades mas desarrollas son:</p>
                         <div class="html">
