@@ -1,7 +1,5 @@
 /* Color Theme Swatches in RGBA */
 * {
-  margin: 0px;
-  padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24,7 +22,7 @@ body {
 }
 
 .titulo {
-  font-family: 'Oxanium', Arial;
+  font-family: 'Oxanium', Arial, monospace;
   text-align: center;
   font-weight: 300;
   letter-spacing: 2px;
@@ -34,7 +32,7 @@ body {
 }
 
 header {
-  height: 85vh;
+  height: 65vh;
   position: relative;
   background: url("../img/bg.jpg"), #027e8c;
   background: url("../img/bg.jpg"), -webkit-gradient(linear, left top, right top, from(#027e8c), to(#b5411d));
@@ -173,6 +171,7 @@ main .acerca-de {
   overflow: visible;
   margin-top: -170px;
   margin-bottom: 40px;
+  position: relative;
 }
 
 main .acerca-de .foto {
@@ -187,8 +186,8 @@ main .acerca-de .foto img {
   border: 7px solid rgba(242, 205, 42, 0.5);
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  -webkit-box-shadow: 0px 0px 10px 3px #111111d7;
-          box-shadow: 0px 0px 10px 3px #111111d7;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(17, 17, 17, 0.95);
+          box-shadow: 0px 0px 10px 3px rgba(17, 17, 17, 0.95);
 }
 
 main .acerca-de .foto img:hover {
@@ -215,13 +214,62 @@ main .acerca-de .texto p {
   font-weight: 300;
 }
 
+main .acerca-de .boton-contacto {
+  background: #027e8c;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 15px 0px;
+  padding: 10px 18px;
+  border: 2px solid #027e8c;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(2, 126, 140, 0.7);
+          box-shadow: 0px 0px 5px 0px rgba(2, 126, 140, 0.7);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+main .acerca-de .boton-contacto:hover {
+  background: white;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(242, 205, 42, 0.7);
+          box-shadow: 0px 0px 5px 0px rgba(242, 205, 42, 0.7);
+  border: 2px solid #f2cd2a;
+  color: #f2cd2a;
+}
+
 main .redes-sociales {
-  -webkit-box-shadow: 0px 0px 10px 5px #181818d0;
-          box-shadow: 0px 0px 10px 5px #181818d0;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(24, 24, 24, 0.85);
+          box-shadow: 0px 0px 10px 5px rgba(24, 24, 24, 0.85);
 }
 
 main .redes-sociales .titulo {
   padding-bottom: 15px;
   border-bottom: 2px solid white;
+}
+
+main .redes-sociales .lista .cliente {
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+main .redes-sociales .lista .cliente .icono {
+  font-size: 38px;
+}
+
+main .redes-sociales .lista .instagram:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(#fd1d1d), to(#fcb045));
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+main .redes-sociales .lista .github:hover {
+  background: #6cc644;
+}
+
+main .redes-sociales .lista .whatsapp:hover {
+  background: #075e54;
 }
 /*# sourceMappingURL=master.css.map */
