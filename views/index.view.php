@@ -67,7 +67,7 @@
                     redes sociales o mandame un correo en el formulario que tendras debajo.
                 </p>
                 <div class="col-12 d-flex justify-content-center">
-                    <a href="#" class="boton-contacto" data-aos="flip-down">Contactame</a>
+                    <a href="#" class="boton-contacto" data-aos="flip-down">Contactame  <i class="fas fa-user"></i></a>
                 </div>
             </div>
         </section>
