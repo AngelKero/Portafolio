@@ -32,7 +32,7 @@ body {
 }
 
 header {
-  height: 65vh;
+  height: 75vh;
   position: relative;
   background: url("../img/bg.jpg"), #027e8c;
   background: url("../img/bg.jpg"), -webkit-gradient(linear, left top, right top, from(#027e8c), to(#b5411d));
@@ -211,7 +211,6 @@ main .acerca-de .texto p {
   line-height: 1.8em;
   letter-spacing: 1px;
   color: #242424;
-  font-weight: 300;
 }
 
 main .acerca-de .boton-contacto {
@@ -271,5 +270,97 @@ main .redes-sociales .lista .github:hover {
 
 main .redes-sociales .lista .whatsapp:hover {
   background: #075e54;
+}
+
+.habilidades {
+  background: url("../img/email-pattern.png");
+}
+
+.habilidades .tecnologias .descrpcion {
+  font-size: 20px;
+}
+
+.habilidades .tecnologias .tecnologia {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.habilidades .tecnologias .porcentaje {
+  margin-top: 7px;
+}
+
+.habilidades .tecnologias .html .html-bar {
+  background: -webkit-gradient(linear, left top, right top, from(#e34f26), to(#8d341b));
+  background: linear-gradient(to right, #e34f26, #8d341b);
+}
+
+.habilidades .tecnologias .javascript .javascript-bar {
+  background: -webkit-gradient(linear, left top, right top, from(#f7df1e), to(#9e8d0e));
+  background: linear-gradient(to right, #f7df1e, #9e8d0e);
+}
+
+.habilidades .tecnologias .php .php-bar {
+  background: -webkit-gradient(linear, left top, right top, from(#8892be), color-stop(#4f5b93), to(#99cc99));
+  background: linear-gradient(to right, #8892be, #4f5b93, #99cc99);
+}
+
+.habilidades .tecnologias .mysql .mysql-bar {
+  background: -webkit-gradient(linear, left top, right top, from(#00758f), to(#f29111));
+  background: linear-gradient(to right, #00758f, #f29111);
+}
+
+.laptop-tecnologias {
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(29, 29, 29, 0.6);
+          box-shadow: 0px 0px 3px 0px rgba(29, 29, 29, 0.6);
+  display: block;
+}
+
+.otras-habilidades .extra {
+  height: 100%;
+  padding: 15px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  font-weight: 500;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(41, 41, 41, 0.7);
+          box-shadow: 0px 0px 10px 3px rgba(41, 41, 41, 0.7);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.otras-habilidades .extra:hover {
+  background: url("../img/code.png");
+  cursor: pointer;
+}
+
+.otras-habilidades .extra .habilidad {
+  font-weight: 700;
+  padding-bottom: 12px;
+  color: #e2d288;
+  border-bottom: 4px solid #027e8c;
+}
+
+.otras-habilidades .extra .descripcion {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.otras-habilidades .extra .nivel {
+  font-size: 14px;
+  padding: 0;
+  color: #abecf3;
+  margin: 0;
 }
 /*# sourceMappingURL=master.css.map */

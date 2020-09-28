@@ -25,16 +25,15 @@
 </head>
 
 <body>
-    <header>
+    <header id="inicio">
         <div class="container">
             <nav class="row">
                 <ul class="col-12">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.php#inicio">Inicio</a></li>
                     <li><a href="#acerca">Acerca de...</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#">Trabajos</a></li>
                     <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Mas informacion</a></li>
                 </ul>
             </nav>
         </div>
@@ -67,15 +66,15 @@
                     Solamente cuentame que es lo que quieres hacer y te ayudare a llevar a cabo esa idea que tienes en mente, simplemente contactactame mediante
                     redes sociales o mandame un correo en el formulario que tendras debajo.
                 </p>
-                <div class="col-12 d-lg-flex justify-content-center">
-                    <a href="#" class="boton-contacto">Contactame</a>
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="#" class="boton-contacto" data-aos="flip-down">Contactame</a>
                 </div>
             </div>
         </section>
         <section class="redes-sociales bg-dark">
             <div class="container">
                 <!-- Titulo -->
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col-12">
                         <h3 class="titulo mt-4 text-white" data-aos="fade-left">Redes Sociales</h3>
                     </div>
@@ -95,6 +94,102 @@
                         <p class="icono"><i class="fab fa-whatsapp fa-lg fa-fw"></i></p>
                         <p class="nombre">WhatsApp</p>
                     </a>
+                </div>
+            </div>
+        </section>
+        <section class="habilidades" id="habilidades">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="titulo mt-4" data-aos="fade-left">Mis habilidades____</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7 tecnologias">
+                        <p class="mb-4 descrpcion">Actualmento me dedico mas al menejo de fron-end, pero mis habilidades mas desarrollas son:</p>
+                        <div class="html">
+                            <p class="tecnologia" data-aos="fade-left">HTML</p>
+                            <div class="progress" data-aos="fade-right">
+                                <div class="progress-bar html-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="text-right porcentaje">75%</p>
+                        </div>
+                        <div class="css">
+                            <p class="tecnologia" data-aos="fade-left">CSS</p>
+                            <div class="progress" data-aos="fade-right">
+                                <div class="progress-bar css-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="text-right porcentaje">50%</p>
+                        </div>
+                        <div class="javascript">
+                            <p class="tecnologia" data-aos="fade-left">JavaScript</p>
+                            <div class="progress" data-aos="fade-right">
+                                <div class="progress-bar javascript-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="text-right porcentaje">20%</p>
+                        </div>
+                        <div class="php">
+                            <p class="tecnologia" data-aos="fade-left">PHP</p>
+                            <div class="progress" data-aos="fade-right">
+                                <div class="progress-bar php-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="text-right porcentaje">40%</p>
+                        </div>
+                        <div class="mysql">
+                            <p class="tecnologia" data-aos="fade-left">MySQL</p>
+                            <div class="progress" data-aos="fade-right">
+                                <div class="progress-bar mysql-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="text-right porcentaje">30%</p>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex flex-column justify-content-center">
+                        <img src="img/laptop" alt="" class="w-100 laptop-tecnologias" data-aos="zoom-in-up">
+                    </div>
+                </div>
+                <div class="row otras-habilidades d-flex justify-content-lg-around mt-5">
+                    <div class="col-3 mb-5" data-aos="flip-left">
+                        <div class="extra bg-dark">
+                            <h4 class="habilidad text-center">Responsive Design</h4>
+                            <p class="descripcion">Diseño adaptado a multiples pantallas.</p>
+                            <p class="nivel text-right">100%</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-5" data-aos="flip-left">
+                        <div class="extra bg-dark">
+                            <h4 class="habilidad text-center">Git y Gihub</h4>
+                            <p class="descripcion">Sistema de control de versiones.</p>
+                            <p class="nivel text-right">35%</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-5" data-aos="flip-left">
+                        <div class="extra bg-dark">
+                            <h4 class="habilidad text-center">jQuery</h4>
+                            <p class="descripcion">Libreria para JavaScript.</p>
+                            <p class="nivel text-right">15%</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-5" data-aos="flip-left">
+                        <div class="extra bg-dark">
+                            <h4 class="habilidad text-center">SASS</h4>
+                            <p class="descripcion">Preprocesador de CSS.</p>
+                            <p class="nivel text-right">50%</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-5" data-aos="flip-left">
+                        <div class="extra bg-dark">
+                            <h4 class="habilidad text-center">AJAX</h4>
+                            <p class="descripcion">Paginas dinamicas.</p>
+                            <p class="nivel text-right">30%</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mb-5" data-aos="flip-left">
+                        <div class="extra bg-dark">
+                            <h4 class="habilidad text-center">WordPress</h4>
+                            <p class="descripcion">Administra tu pagina de forma sencilla.</p>
+                            <p class="nivel text-right">70%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
