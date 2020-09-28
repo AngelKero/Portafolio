@@ -80,17 +80,17 @@
                     </div>
                 </div>
                 <!-- Redes -->
-                <div class="row lista text-white text-center">
+                <div class="row lista text-white text-center d-flex justify-content-around">
                     <!-- Cliente -->
-                    <a class="col-6 col-md-4 cliente instagram" data-aos="zoom-in" href="https://www.instagram.com/angeladrian.zaragozarodriguez/" target="_blank">
+                    <a class="col-lg-6 col-md-4 cliente instagram" data-aos="zoom-in" href="https://www.instagram.com/angeladrian.zaragozarodriguez/" target="_blank">
                         <p class="icono"><i class="fab fa-instagram fa-lg fa-fw"></i></p>
                         <p class="nombre">Instagram</p>
                     </a>
-                    <a class="col-6 col-md-4 cliente github" data-aos="zoom-in" href="https://github.com/AngelKero" target="_blank">
+                    <a class="col-lg-6 col-md-4 cliente github" data-aos="zoom-in" href="https://github.com/AngelKero" target="_blank">
                         <p class="icono"><i class="fab fa-github fa-lg fa-fw"></i></p>                       
                         <p class="nombre">GitHub</p>
                     </a>
-                    <a class="col-6 col-md-4 cliente whatsapp" data-aos="zoom-in" href="https://api.whatsapp.com/send?phone=523325094748" target="_blank">
+                    <a class="col-lg-6 col-md-4 cliente whatsapp" data-aos="zoom-in" href="https://api.whatsapp.com/send?phone=523325094748" target="_blank">
                         <p class="icono"><i class="fab fa-whatsapp fa-lg fa-fw"></i></p>
                         <p class="nombre">WhatsApp</p>
                     </a>
@@ -104,8 +104,8 @@
                         <h3 class="titulo mt-4" data-aos="fade-left">Mis habilidades____</h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-7 tecnologias">
+                <div class="row d-md-flex flex-column-reverse">
+                    <div class="col-lg-7 col-md-12 tecnologias">
                         <p class="mb-4 descrpcion">Actualmento me dedico mas al menejo de fron-end, pero mis habilidades mas desarrollas son:</p>
                         <div class="html">
                             <p class="tecnologia" data-aos="fade-left">HTML</p>
@@ -143,7 +143,7 @@
                             <p class="text-right porcentaje">30%</p>
                         </div>
                     </div>
-                    <div class="col-5 d-flex flex-column justify-content-center">
+                    <div class="col-lg-5 col-md-12 d-flex flex-column justify-content-center">
                         <img src="img/laptop.jpg" alt="" class="w-100 laptop-tecnologias" data-aos="zoom-in-up">
                     </div>
                 </div>
@@ -151,42 +151,42 @@
                     <div class="col-12">
                         <h5>Otras habilidades...</h5>
                     </div>
-                    <div class="col-3 mb-5" data-aos="flip-left">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">Responsive Design</h4>
                             <p class="descripcion">Diseño adaptado a multiples pantallas.</p>
                             <p class="nivel text-right">100%</p>
                         </div>
                     </div>
-                    <div class="col-3 mb-5" data-aos="flip-left">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">Git y Gihub</h4>
                             <p class="descripcion">Sistema de control de versiones.</p>
                             <p class="nivel text-right">35%</p>
                         </div>
                     </div>
-                    <div class="col-3 mb-5" data-aos="flip-left">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">jQuery</h4>
                             <p class="descripcion">Libreria para JavaScript.</p>
                             <p class="nivel text-right">15%</p>
                         </div>
                     </div>
-                    <div class="col-3 mb-5" data-aos="flip-left">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">SASS</h4>
                             <p class="descripcion">Preprocesador de CSS.</p>
                             <p class="nivel text-right">50%</p>
                         </div>
                     </div>
-                    <div class="col-3 mb-5" data-aos="flip-left">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">AJAX</h4>
                             <p class="descripcion">Paginas dinamicas.</p>
                             <p class="nivel text-right">30%</p>
                         </div>
                     </div>
-                    <div class="col-3 mb-5" data-aos="flip-left">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">WordPress</h4>
                             <p class="descripcion">Administra tu pagina de forma sencilla.</p>
