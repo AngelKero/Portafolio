@@ -148,6 +148,9 @@
                     </div>
                 </div>
                 <div class="row otras-habilidades d-flex justify-content-lg-around mt-5">
+                    <div class="col-12">
+                        <h5>Otras habilidades...</h5>
+                    </div>
                     <div class="col-3 mb-5" data-aos="flip-left">
                         <div class="extra bg-dark">
                             <h4 class="habilidad text-center">Responsive Design</h4>

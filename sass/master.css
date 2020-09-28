@@ -235,6 +235,8 @@ main .acerca-de .boton-contacto:hover {
           box-shadow: 0px 0px 5px 0px rgba(242, 205, 42, 0.7);
   border: 2px solid #f2cd2a;
   color: #f2cd2a;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 main .redes-sociales {
@@ -284,6 +286,7 @@ main .redes-sociales .lista .whatsapp:hover {
   margin: 0;
   margin-top: 20px;
   margin-bottom: 7px;
+  font-weight: 700;
 }
 
 .habilidades .tecnologias .porcentaje {
@@ -342,13 +345,16 @@ main .redes-sociales .lista .whatsapp:hover {
 .otras-habilidades .extra:hover {
   background: url("../img/code.png");
   cursor: pointer;
+  -webkit-box-shadow: 0px 0px 13px 4px rgba(41, 41, 41, 0.7);
+          box-shadow: 0px 0px 13px 4px rgba(41, 41, 41, 0.7);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 .otras-habilidades .extra .habilidad {
   font-weight: 700;
   padding-bottom: 12px;
   color: #e2d288;
-  border-bottom: 4px solid #027e8c;
 }
 
 .otras-habilidades .extra .descripcion {
