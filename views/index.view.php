@@ -104,7 +104,7 @@
                         <h3 class="titulo mt-4" data-aos="fade-left">Mis habilidades____</h3>
                     </div>
                 </div>
-                <div class="row d-lg-block d-md-flex flex-md-column-reverse">
+                <div class="row d-md-flex flex-lg-row flex-md-column-reverse">
                     <div class="col-lg-7 col-md-12 tecnologias">
                         <p class="mb-4 descrpcion">Actualmento me dedico mas al menejo de fron-end, pero mis habilidades mas desarrollas son:</p>
                         <div class="html">
@@ -196,7 +196,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
-                    <a href="https://siteground.es/hosting-web.htm?afimagecode=a7b705c5a881f168e39bdd07ca4ed7a8" target="_blank" class="mb-4"><img class="" border="0" src="https://uapi.siteground.com/img/affiliate/es_ES/NOPRICE/general_ES_general-hosting-leaderboard-light.jpg"></a>
+                    <a href="https://siteground.es/hosting-web.htm?afimagecode=a7b705c5a881f168e39bdd07ca4ed7a8" target="_blank" class="mb-4"><img class="w-100" border="0" src="https://uapi.siteground.com/img/affiliate/es_ES/NOPRICE/general_ES_general-hosting-leaderboard-light.jpg"></a>
                     </div>
                 </div>
             </div>
