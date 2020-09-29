@@ -195,13 +195,28 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                    <a href="https://siteground.es/hosting-web.htm?afimagecode=a7b705c5a881f168e39bdd07ca4ed7a8" target="_blank" class="mb-4"><img class="w-100" border="0" src="https://uapi.siteground.com/img/affiliate/es_ES/NOPRICE/general_ES_general-hosting-leaderboard-light.jpg"></a>
+                    <div class="col-lg-12 justify-content-center d-flex m-5">
+                        <a href="download/cv.pdf" download="cv_Angel Zaragoza.pdf" role="button" class="btn btn-info" data-aos="zoom-in-up">Descarga mi CV <i class="fas fa-paper-plane"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <p>Contrata unos de los mejores servicios de hosting hoy mismo.</p>
+                    </div>
+                    <div class="col-12 justify-content-center d-none d-lg-flex">
+                        <a href="https://siteground.es/hosting-web.htm?afimagecode=a7b705c5a881f168e39bdd07ca4ed7a8" target="_blank"><img border="0" src="https://uapi.siteground.com/img/affiliate/es_ES/NOPRICE/general_ES_general-hosting-leaderboard-light.jpg"></a>
+                    </div>
+                    <div class="col-12 justify-content-center d-flex d-lg-none">
+                        <a href="https://siteground.es/hosting-web.htm?afimagecode=abe5b448aa0a4d7bc5f968ebc58a0a2d" target="_blank"><img border="0" src="https://uapi.siteground.com/img/affiliate/es_ES/NOPRICE/general_ES_general-hosting-square-light.jpg"></a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <div class="boton-whatsapp">
+        <p><i class="fas fa-whatsapp-square"></i></p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
