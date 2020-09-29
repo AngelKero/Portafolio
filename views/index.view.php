@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Oxanium:300,400,700&display=swap"
         rel="stylesheet">
     <!-- Styles CSS -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="sass/master.css">
 
     <!-- Animaciones para css -->
