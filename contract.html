@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contrato de Servicios Profesionales</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap");
+
+      body {
+        font-family: "Merriweather", serif;
+        background-color: #f3f4f6;
+        color: #1f2937;
+        font-size: 11pt;
+        line-height: 1.6;
+      }
+
+      .contract-page {
+        background: white;
+        width: 21.59cm; /* Carta width */
+        min-height: 27.94cm; /* Carta height */
+        margin: 40px auto;
+        padding: 2.5cm;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+
+      h1 {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16pt;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 12pt;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 5px;
+      }
+      p {
+        margin-bottom: 1rem;
+        text-align: justify;
+      }
+      ul,
+      ol {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+        text-align: justify;
+      }
+
+      .clause-title {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .signature-box {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      .signature-line {
+        border-top: 1px solid #000;
+        padding-top: 0.5rem;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 10pt;
+      }
+
+      @media print {
+        body {
+          background: none;
+          margin: 0;
+        }
+        .contract-page {
+          width: 100%;
+          margin: 0;
+          box-shadow: none;
+          padding: 1.5cm;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .page-break {
+          page-break-before: always;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Botón de Acción -->
+    <div class="fixed top-5 right-5 no-print z-50">
+      <button
+        onclick="window.print()"
+        class="bg-slate-800 text-white px-6 py-3 rounded shadow hover:bg-slate-700 font-sans font-bold flex items-center gap-2"
+      >
+        <i class="fas fa-file-contract"></i> Imprimir Contrato
+      </button>
+    </div>
+
+    <div class="contract-page">
+      <h1>
+        CONTRATO DE PRESTACIÓN DE SERVICIOS PROFESIONALES DE DESARROLLO DE
+        SOFTWARE Y CONSULTORÍA
+      </h1>
+
+      <p>
+        En la ciudad de <strong>Guadalajara, Jalisco</strong>, a los ____ días
+        del mes de _____________ de 202__, comparecen por una parte:
+      </p>
+
+      <p>
+        A. <strong>EL PRESTADOR:</strong> C. <strong>Ángel Zaragoza</strong>,
+        desarrollador de software independiente.
+      </p>
+      <p>
+        B.
+        <strong>EL CLIENTE:</strong>
+        ___________________________________________________, representado en
+        este acto por ___________________________________________________.
+      </p>
+
+      <p>
+        Ambas partes reconocen su capacidad legal para contratar y convienen en
+        sujetarse al tenor de las siguientes:
+      </p>
+
+      <h1>CLÁUSULAS</h1>
+
+      <h2>PRIMERA. OBJETO DEL CONTRATO</h2>
+      <p>
+        EL PRESTADOR se obliga a realizar servicios de consultoría técnica,
+        arquitectura de software, desarrollo full stack (MEAN Stack) y
+        automatización de procesos (n8n) a favor de EL CLIENTE. Los servicios se
+        ejecutarán bajo la modalidad de <strong>Objetivos Definidos</strong>.
+      </p>
+
+      <h2>SEGUNDA. METODOLOGÍA DE TRABAJO Y ALCANCE</h2>
+      <p>
+        Las partes acuerdan trabajar bajo un esquema de "Paquetes de Horas por
+        Objetivo", sujeto a las siguientes reglas:
+      </p>
+      <ol class="list-decimal">
+        <li>
+          <strong>Definición de Objetivo:</strong> Antes de iniciar cualquier
+          trabajo, ambas partes acordarán por escrito (correo electrónico o
+          anexo técnico) el alcance específico del objetivo (el "Sprint" o
+          "Entregable") y el costo asociado a dicho objetivo.
+        </li>
+        <li>
+          <strong>Aceptación:</strong> EL PRESTADOR no iniciará labores hasta
+          contar con la confirmación expresa de EL CLIENTE sobre el alcance y
+          costo del objetivo.
+        </li>
+        <li>
+          <strong>Infraestructura:</strong> Todos los costos de servidores,
+          dominios, licencias de software (SaaS) y servicios de terceros corren
+          por cuenta exclusiva de EL CLIENTE.
+        </li>
+      </ol>
+
+      <h2>TERCERA. CONTRAPRESTACIÓN Y FORMA DE PAGO</h2>
+      <p>
+        EL CLIENTE pagará a EL PRESTADOR los honorarios acordados para cada
+        objetivo bajo los siguientes términos:
+      </p>
+      <ol class="list-decimal">
+        <li>
+          <strong>Pago Contra Entrega:</strong> El pago total del objetivo
+          deberá liquidarse en un plazo máximo de
+          <strong>3 (tres) días hábiles</strong> posteriores a la notificación
+          de "Objetivo Terminado" y demostración de funcionalidad por parte de
+          EL PRESTADOR.
+        </li>
+        <li>
+          <strong>Suspensión por Falta de Pago (No Pay, No Play):</strong> En
+          caso de que EL CLIENTE no liquide un objetivo terminado dentro del
+          plazo establecido, EL PRESTADOR suspenderá inmediatamente cualquier
+          nuevo desarrollo, soporte o consultoría hasta que se cubra el saldo
+          pendiente. No se iniciará ningún objetivo nuevo si existe saldo
+          vencido del anterior.
+        </li>
+        <li>
+          <strong>Reserva de Dominio:</strong> La propiedad intelectual, códigos
+          fuente y derechos de uso de los entregables permanecen bajo propiedad
+          exclusiva de EL PRESTADOR hasta que EL CLIENTE haya liquidado el 100%
+          del pago correspondiente. El uso del software sin haber realizado el
+          pago se considerará una violación a los derechos de autor.
+        </li>
+      </ol>
+
+      <h2>CUARTA. DISPONIBILIDAD Y LÍMITE DE HORAS (CAPACIDAD)</h2>
+      <p>
+        EL PRESTADOR declara que presta sus servicios de manera independiente y
+        no exclusiva. Para garantizar la calidad del servicio y respetar sus
+        otros compromisos profesionales y académicos:
+      </p>
+      <ul class="list-disc">
+        <li>
+          Se establece un límite máximo de dedicación de
+          <strong>15 (quince) horas semanales</strong>.
+        </li>
+        <li>
+          Cualquier requerimiento que exceda esta capacidad será agendado para
+          la semana o periodo subsecuente, previo acuerdo entre las partes.
+        </li>
+        <li>
+          El horario de atención para consultas y soporte será de Lunes a
+          Viernes de 9:00 AM a 6:00 PM. Requerimientos fuera de este horario se
+          cobrarán como hora de urgencia (+50% sobre tarifa base) o se atenderán
+          al siguiente día hábil.
+        </li>
+      </ul>
+
+      <div class="page-break"></div>
+      <!-- Salto de página para impresión -->
+
+      <h2>QUINTA. GARANTÍA TÉCNICA (SLA)</h2>
+      <p>
+        EL PRESTADOR garantiza el funcionamiento del código entregado por un
+        periodo de <strong>3 (tres) meses</strong> contados a partir de la fecha
+        de entrega del objetivo. Esta garantía se limita a lo siguiente:
+      </p>
+      <ol class="list-decimal">
+        <li>
+          <strong>Cobertura:</strong> Corrección sin costo de "Bugs" (errores de
+          lógica, sintaxis o funcionamiento imputables al código desarrollado
+          por EL PRESTADOR) que impidan que el software cumpla con los
+          requisitos aprobados inicialmente.
+        </li>
+        <li>
+          <strong>Exclusiones (Lo que NO cubre la garantía):</strong> No se
+          consideran Bugs y generarán costos adicionales:
+          <ul class="list-disc">
+            <li>
+              Fallas ocasionadas por cambios en APIs de terceros (ej. Google,
+              Meta, Trello cambian su documentación o endpoints).
+            </li>
+            <li>Mal uso del sistema por parte de EL CLIENTE o su personal.</li>
+            <li>
+              Fallas en el servidor, hosting o infraestructura ajena a EL
+              PRESTADOR.
+            </li>
+            <li>
+              Nuevos requerimientos o "mejoras" no especificadas en el alcance
+              original.
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>SEXTA. LIMITACIÓN DE RESPONSABILIDAD</h2>
+      <p>
+        La responsabilidad total de EL PRESTADOR por cualquier reclamo, pérdida
+        o daño derivado de los servicios prestados bajo este contrato, sea por
+        contrato, agravio o cualquier otra teoría legal, no excederá en ningún
+        caso el monto total de los honorarios pagados por EL CLIENTE por el
+        objetivo específico que originó el reclamo.
+      </p>
+      <p>
+        EL PRESTADOR no será responsable por pérdida de datos, lucro cesante o
+        daños indirectos derivados de fallas en servicios de terceros (APIs,
+        Hosting, etc.).
+      </p>
+
+      <h2>SÉPTIMA. CONFIDENCIALIDAD</h2>
+      <p>
+        Ambas partes se obligan a mantener estricta confidencialidad sobre la
+        información técnica, comercial y de negocios a la que tengan acceso
+        durante la vigencia de este contrato.
+      </p>
+
+      <h2>OCTAVA. JURISDICCIÓN</h2>
+      <p>
+        Para la interpretación y cumplimiento del presente contrato, las partes
+        se someten a las leyes y tribunales competentes de la ciudad de
+        Guadalajara, Jalisco, renunciando a cualquier otro fuero que pudiera
+        corresponderles.
+      </p>
+
+      <br /><br /><br />
+
+      <div class="signature-box">
+        <div class="signature-line">
+          <strong>EL PRESTADOR</strong><br />
+          <br />
+          __________________________<br />
+          Ángel Zaragoza
+        </div>
+        <div class="signature-line">
+          <strong>EL CLIENTE</strong><br />
+          <br />
+          __________________________<br />
+          Nombre: __________________<br />
+          Empresa: _________________
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

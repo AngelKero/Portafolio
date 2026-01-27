@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propuesta de Servicios | Angel Zaragoza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #525659; /* Fondo gris oscuro para resaltar la hoja */
+        -webkit-print-color-adjust: exact;
+      }
+
+      .paper-sheet {
+        background: white;
+        width: 210mm; /* A4 width */
+        min-height: 297mm; /* A4 height */
+        margin: 40px auto;
+        padding: 20mm;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        position: relative;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Inter", sans-serif;
+      }
+      p,
+      li {
+        font-family: "Merriweather", serif;
+        color: #374151;
+      }
+
+      .section-title {
+        border-bottom: 2px solid #1e293b;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-weight: 800;
+        color: #0f172a;
+        font-size: 0.9rem;
+      }
+
+      @media print {
+        body {
+          background: none;
+          margin: 0;
+        }
+        .paper-sheet {
+          width: 100%;
+          margin: 0;
+          box-shadow: none;
+          padding: 15mm; /* Ajuste para márgenes de impresora */
+        }
+        .no-print {
+          display: none !important;
+        }
+        .page-break {
+          page-break-before: always;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Botón de Acción -->
+    <div class="fixed top-5 right-5 no-print z-50">
+      <button
+        onclick="window.print()"
+        class="bg-blue-600 text-white px-6 py-3 rounded shadow-lg hover:bg-blue-700 font-bold flex items-center gap-2 transition transform hover:scale-105"
+      >
+        <i class="fas fa-file-pdf"></i> Generar PDF
+      </button>
+    </div>
+
+    <!-- HOJA 1: METODOLOGÍA -->
+    <div class="paper-sheet">
+      <!-- Header -->
+      <header
+        class="flex justify-between items-start mb-12 border-b pb-6 border-gray-200"
+      >
+        <div>
+          <h1
+            class="text-3xl font-extrabold text-slate-900 uppercase tracking-tight"
+          >
+            Ángel Zaragoza
+          </h1>
+          <p
+            class="text-blue-700 font-bold text-sm tracking-widest uppercase mt-1"
+          >
+            Marco de Trabajo & Protocolos Técnicos
+          </p>
+        </div>
+        <div class="text-right text-xs text-slate-500 font-serif">
+          <p>Guadalajara, Jalisco, MX</p>
+          <p>zangelweb@gmail.com</p>
+          <p>linkedin.com/in/zangelweb</p>
+        </div>
+      </header>
+
+      <!-- Intro breve -->
+      <div class="mb-10">
+        <p
+          class="text-sm italic text-gray-500 border-l-4 border-blue-600 pl-4 py-1"
+        >
+          Este documento establece los lineamientos operativos, técnicos y
+          financieros bajo los cuales se ejecutan los servicios de consultoría y
+          desarrollo de software, garantizando transparencia, escalabilidad y
+          protección de la inversión del cliente.
+        </p>
+      </div>
+
+      <!-- Metodología -->
+      <section class="mb-12">
+        <h2 class="section-title">1. Metodología de Ejecución (El Proceso)</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Fase 1 -->
+          <div class="bg-slate-50 p-4 rounded border border-slate-100">
+            <h3 class="font-bold text-slate-900 text-sm mb-2 text-blue-800">
+              01. Discovery & Arquitectura
+            </h3>
+            <p class="text-xs leading-5 text-gray-600 text-justify">
+              Diagnóstico inicial obligatorio. Antes de desarrollar, realizo un
+              levantamiento técnico de APIs, bases de datos y procesos para
+              entregar un <strong>Diagrama de Arquitectura</strong>. Esto evita
+              costos ocultos, define el alcance real (Scope) y mitiga riesgos
+              técnicos antes de invertir en código.
+            </p>
+          </div>
+          <!-- Fase 2 -->
+          <div class="bg-slate-50 p-4 rounded border border-slate-100">
+            <h3 class="font-bold text-slate-900 text-sm mb-2 text-blue-800">
+              02. Desarrollo por Objetivos
+            </h3>
+            <p class="text-xs leading-5 text-gray-600 text-justify">
+              Implementación ágil en entornos seguros (Sandbox/Staging). Se
+              trabaja mediante "Sprints" u objetivos semanales/quincenales
+              pre-aprobados. Esto permite al cliente auditar el progreso y
+              mantener el control del presupuesto en cada etapa.
+            </p>
+          </div>
+          <!-- Fase 3 -->
+          <div class="bg-slate-50 p-4 rounded border border-slate-100">
+            <h3 class="font-bold text-slate-900 text-sm mb-2 text-blue-800">
+              03. Entrega y Soporte
+            </h3>
+            <p class="text-xs leading-5 text-gray-600 text-justify">
+              Capacitación para su equipo interno y entrega de documentación
+              técnica detallada. El soporte continuo asegura la estabilidad
+              frente a cambios en APIs externas, servidores o actualizaciones de
+              seguridad.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Condiciones Financieras y Operativas -->
+      <section>
+        <h2 class="section-title">2. Términos Operativos y Económicos</h2>
+
+        <div class="space-y-8">
+          <!-- Modelo de Cobro -->
+          <div class="flex gap-5">
+            <div class="min-w-[40px] pt-1 text-slate-800 flex justify-center">
+              <i class="fas fa-coins text-xl"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-sm mb-1">
+                A. Modelo de Trabajo: Paquetes de Horas por Objetivo
+              </h3>
+              <p class="text-xs leading-relaxed text-gray-600 text-justify">
+                Para garantizar transparencia y control de costos, el trabajo se
+                estructura bajo un esquema de resultados:
+              </p>
+              <ul class="list-disc ml-4 mt-2 text-xs space-y-1 text-gray-600">
+                <li>
+                  Se define un
+                  <strong>Objetivo Quincenal o Semanal</strong> (ej. "Conectar
+                  CRM con Facturación y validar logs").
+                </li>
+                <li>
+                  Se estima el esfuerzo en horas y se adquiere un
+                  <strong>Paquete de Horas</strong> correspondiente a dicho
+                  objetivo.
+                </li>
+                <li>
+                  Los entregables se revisan contra el objetivo definido. Las
+                  horas no utilizadas se pueden transferir al siguiente
+                  objetivo.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Infraestructura -->
+          <div class="flex gap-5">
+            <div class="min-w-[40px] pt-1 text-slate-800 flex justify-center">
+              <i class="fas fa-server text-xl"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-sm mb-1">
+                B. Infraestructura y Costos de Terceros
+              </h3>
+              <p class="text-xs leading-relaxed text-gray-600 text-justify">
+                Los costos derivados de infraestructura son responsabilidad
+                directa del cliente y no están incluidos en los honorarios de
+                consultoría/desarrollo. Esto incluye, pero no se limita a:
+              </p>
+              <ul class="list-disc ml-4 mt-2 text-xs space-y-1 text-gray-600">
+                <li>
+                  Hosting / VPS / Nube (DigitalOcean, AWS, Hetzner, Azure).
+                </li>
+                <li>
+                  Licencias de Software (n8n Cloud, Plugins de pago, CRMs).
+                </li>
+                <li>
+                  Dominios, Certificados SSL y servicios de correo
+                  transaccional.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Definición de Done -->
+          <div class="flex gap-5">
+            <div class="min-w-[40px] pt-1 text-slate-800 flex justify-center">
+              <i class="fas fa-check-double text-xl"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-sm mb-1">
+                C. Definición de Terminado (DoD) y Garantía
+              </h3>
+              <p class="text-xs leading-relaxed text-gray-600 text-justify">
+                Un objetivo se considera "Entregado" una vez que ha sido
+                validado en el entorno de pruebas y aprobado por el cliente.
+              </p>
+              <div
+                class="bg-gray-100 p-4 mt-2 rounded border-l-4 border-slate-300"
+              >
+                <p class="text-xs font-bold text-slate-800 mb-1">
+                  Política de Bugs vs. Nuevos Requerimientos:
+                </p>
+                <ul class="list-disc ml-4 text-xs space-y-1 text-gray-600">
+                  <li>
+                    <strong>Bugs (Garantía):</strong> Errores técnicos sobre lo
+                    acordado se corrigen <strong>sin costo</strong> durante los
+                    90 días posteriores a la entrega.
+                  </li>
+                  <li>
+                    <strong>Nuevos Requerimientos:</strong> Cambios en la lógica
+                    de negocio, nuevas funcionalidades o ajustes solicitados
+                    tras la aprobación, se cotizan como nuevos objetivos o se
+                    descuentan del paquete de horas activo.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soporte -->
+          <div class="flex gap-5">
+            <div class="min-w-[40px] pt-1 text-slate-800 flex justify-center">
+              <i class="fas fa-life-ring text-xl"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-sm mb-1">
+                D. Mantenimiento y Disponibilidad
+              </h3>
+              <p class="text-xs leading-relaxed text-gray-600 text-justify">
+                El soporte post-entrega y mantenimiento preventivo se gestiona
+                bajo un acuerdo separado o mediante horas de soporte bajo
+                demanda. Las consultas técnicas, reuniones de emergencia o
+                capacitación fuera de los hitos de entrega se contabilizan
+                dentro del paquete de horas contratado.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="mt-16 border-t pt-6 text-center text-[10px] text-slate-400 font-sans"
+      >
+        <p>
+          © 2026 Angel Zaragoza | Documento Confidencial de Metodología de
+          Trabajo
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
