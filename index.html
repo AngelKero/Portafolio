@@ -54,6 +54,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
+    <!-- Tippy.js for Educational Tooltips -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/themes/light.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -66,9 +71,9 @@
           <ul class="nav-links">
             <li><a href="#hero">Inicio</a></li>
             <li><a href="#about">Acerca de</a></li>
+            <li><a href="#workflow">Mi Enfoque</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#education">Educación</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
@@ -78,33 +83,64 @@
     <!-- HERO SECTION -->
     <section id="hero" class="hero">
       <div class="container">
-        <div class="hero-content">
-          <h1>Angel Zaragoza</h1>
-          <p class="hero-subtitle">
-            Desarrollador Web Full Stack & Especialista en MEAN Stack
-          </p>
-          <p class="hero-description">
-            Construyendo soluciones web escalables con MongoDB, Express, Angular
-            y Node.js
-          </p>
-          <div class="hero-cta">
-            <a
-              href="https://wa.me/523325094748?text=Hola%20Angel,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios"
-              target="_blank"
-              class="cta-button"
-              >Contactarme</a
-            >
-            <a
-              href="https://github.com/AngelKero"
-              target="_blank"
-              class="cta-button secondary"
-              >Ver en GitHub</a
-            >
-            >
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1>Angel Zaragoza</h1>
+            <p class="hero-subtitle">
+              Desarrollador Web
+              <span
+                class="tech-term"
+                data-tippy-content="Lo que ven tus clientes + el motor que hace que todo funcione. Una sola persona que maneja todo."
+                >Full Stack</span
+              >
+              & Especialista en
+              <span
+                class="tech-term"
+                data-tippy-content="Cuatro tecnologías que trabajan juntas: MongoDB guarda tus datos, Node.js los procesa, Express los envía, y Angular los muestra. Una combinación perfecta para apps modernas."
+                >MEAN Stack</span
+              >
+            </p>
+            <p class="hero-availability">
+              Construyendo soluciones web
+              <span
+                class="tech-term"
+                data-tippy-content="Preparado para que cuando tengas mil usuarios nuevos mañana, tu sitio siga funcionando rápido y sin problemas."
+                >escalables</span
+              >
+              con MongoDB, Express, Angular y Node.js
+            </p>
+            <p class="hero-description">
+              Transformo procesos comerciales complejos en soluciones
+              tecnológicas escalables que generan ROI medible
+            </p>
+            <div class="hero-cta">
+              <a
+                href="https://wa.me/523325094748?text=Hola%20Angel,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios"
+                target="_blank"
+                class="cta-button"
+                >Contactarme</a
+              >
+              <a
+                href="https://github.com/AngelKero"
+                target="_blank"
+                class="cta-button secondary"
+                >Ver en GitHub</a
+              >
+            </div>
+            <div class="hero-meta">
+              <span>📍 Área Metropolitana de Guadalajara, México</span>
+              <span>💼 4+ Años de Experiencia</span>
+            </div>
           </div>
-          <div class="hero-meta">
-            <span>📍 Área Metropolitana de Guadalajara, México</span>
-            <span>💼 4+ Años de Experiencia</span>
+
+          <div class="hero-photo">
+            <div class="hero-photo-frame">
+              <img
+                src="img/imagen_2026-01-27_001247668-removebg-preview.png"
+                alt="Foto de perfil de Angel Zaragoza"
+                class="hero-photo-img"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -117,19 +153,40 @@
           <div class="about-content">
             <h2>Acerca de Mí</h2>
             <p>
-              Soy un apasionado desarrollador web full stack con más de 4 años
-              de experiencia profesional especializándome en MEAN Stack
-              (MongoDB, Express, Angular, Node.js). Como entusiasta de la
-              tecnología comprometido con el aprendizaje continuo, me enfoco en
-              implementar código limpio, patrones de diseño probados y
-              arquitecturas escalables para resolver problemas reales.
+              Soy un desarrollador web
+              <span
+                class="tech-term"
+                data-tippy-content="Lo que ven tus clientes + el motor que hace que todo funcione. Una sola persona que maneja todo."
+                >full stack</span
+              >
+              con 4+ años de experiencia transformando desafíos empresariales
+              complejos en soluciones tecnológicas innovadoras. Mi enfoque va
+              más allá del código: entiendo las necesidades comerciales, analizo
+              procesos existentes y diseño
+              <span
+                class="tech-term"
+                data-tippy-content="El plano de tu aplicación: cómo se organiza todo para que funcione bien, sea fácil de cambiar, y no tenga problemas cuando crece."
+                >arquitecturas</span
+              >
+              que no solo funcionan, sino que generan impacto medible.
             </p>
             <p>
-              Actualmente trabajando en <strong>GOLDEN SUB</strong>, combino
-              experiencia técnica con una profunda comprensión de las prácticas
-              modernas de desarrollo. Me impulsa el desafío de crear soluciones
-              eficientes y mantenibles que generen valor medible a usuarios y
-              negocios.
+              Actualmente trabajo con <strong>GOLDEN SUB</strong>, donde combino
+              expertise técnico profundo en
+              <span
+                class="tech-term"
+                data-tippy-content="Cuatro tecnologías que trabajan juntas: MongoDB guarda tus datos, Node.js los procesa, Express los envía, y Angular los muestra. Una combinación perfecta para apps modernas."
+                >MEAN Stack</span
+              >
+              con una mentalidad de negocio. Me especializo en crear
+              <span
+                class="tech-term"
+                data-tippy-content="Preparado para que cuando tengas mil usuarios nuevos mañana, tu sitio siga funcionando rápido y sin problemas."
+                >sistemas escalables</span
+              >
+              que mejoren eficiencia operativa, reduzcan costos y aceleren el
+              crecimiento empresarial. Cada proyecto es una oportunidad para
+              entender tu negocio y construir soluciones que realmente importan.
             </p>
           </div>
           <div class="about-highlights">
@@ -150,26 +207,132 @@
       </div>
     </section>
 
+    <!-- WORKFLOW & CONSULTANCY SECTION -->
+    <section id="workflow" class="workflow">
+      <div class="container">
+        <h2>Mi Enfoque: De Consultoría a Ejecución</h2>
+        <p class="section-intro">
+          No solo código—soluciones estratégicas que alinean tecnología con
+          objetivos de negocio
+        </p>
+
+        <div class="workflow-steps">
+          <div class="workflow-step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Discovery</h3>
+              <p>
+                Realizo sesiones profundas con tu equipo para entender
+                necesidades comerciales, limitaciones operativas y objetivos de
+                crecimiento. Este es el cimiento de cualquier solución exitosa.
+              </p>
+            </div>
+          </div>
+
+          <div class="workflow-step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Análisis</h3>
+              <p>
+                Observo tus procesos actuales, identifico cuellos de botella,
+                recopilo datos y mapeo puntos de fricción. Entiendo dónde están
+                los problemas reales antes de proponer soluciones.
+              </p>
+            </div>
+          </div>
+
+          <div class="workflow-step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Propuesta</h3>
+              <p>
+                Diseño una solución tecnológica personalizada alineada con tus
+                metas. No es código genérico—es una
+                <span
+                  class="tech-term"
+                  data-tippy-content="El plano de tu aplicación: cómo se organiza todo para que funcione bien, sea fácil de cambiar, y no tenga problemas cuando crece."
+                  >arquitectura</span
+                >
+                diseñada específicamente para tu contexto empresarial.
+              </p>
+            </div>
+          </div>
+
+          <div class="workflow-step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Desarrollo</h3>
+              <p>
+                Ejecución limpia,
+                <span
+                  class="tech-term"
+                  data-tippy-content="Preparado para que cuando tengas mil usuarios nuevos mañana, tu sitio siga funcionando rápido y sin problemas."
+                  >escalable</span
+                >
+                y moderna usando tecnologías probadas (<span
+                  class="tech-term"
+                  data-tippy-content="Cuatro tecnologías que trabajan juntas: MongoDB guarda tus datos, Node.js los procesa, Express los envía, y Angular los muestra. Una combinación perfecta para apps modernas."
+                  >MEAN Stack</span
+                >). Código que no solo funciona hoy, sino que crece con tu
+                negocio mañana.
+              </p>
+            </div>
+          </div>
+
+          <div class="workflow-step">
+            <div class="step-number">05</div>
+            <div class="step-content">
+              <h3>Capacitación & Transferencia</h3>
+              <p>
+                Entreno a tu equipo para garantizar que puedan usar y mantener
+                la herramienta efectivamente. Te dejo con el conocimiento, no
+                solo el código.
+              </p>
+            </div>
+          </div>
+
+          <div class="workflow-step">
+            <div class="step-number">06</div>
+            <div class="step-content">
+              <h3>Soporte Continuo</h3>
+              <p>
+                Apoyo a largo plazo para asegurar que todo siga funcionando sin
+                problemas. Mantenimiento proactivo, mejoras y escalado conforme
+                tu negocio crece.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- SKILLS SECTION -->
     <section id="skills" class="skills">
       <div class="container">
-        <h2>Technical Skills</h2>
+        <h2>Stack Tecnológico & Especialidades</h2>
 
         <div class="skills-container">
           <div class="skills-category">
-            <h3>Habilidades Tecnológicas</h3>
-            <p class="category-emphasis">Especialista en MEAN Stack</p>
+            <h3>Core Technologies</h3>
+            <p class="category-emphasis">
+              Especialista en
+              <span
+                class="tech-term"
+                data-tippy-content="Cuatro tecnologías que trabajan juntas: MongoDB guarda tus datos, Node.js los procesa, Express los envía, y Angular los muestra. Una combinación perfecta para apps modernas."
+                >MEAN Stack</span
+              >
+              para aplicaciones empresariales
+              <span
+                class="tech-term"
+                data-tippy-content="Preparado para que cuando tengas mil usuarios nuevos mañana, tu sitio siga funcionando rápido y sin problemas."
+                >escalables</span
+              >
+            </p>
             <div class="skills-grid">
-              <div class="skill-item">
-                <div class="skill-icon-wrapper">
-                  <i class="devicon-javascript-plain"></i>
-                </div>
-                <span class="skill-name">JavaScript</span>
-                <div class="skill-bar">
-                  <div class="skill-level" style="width: 95%"></div>
-                </div>
-              </div>
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="JavaScript con entrenamiento; te avisa de errores antes de que pasen, ahorrando dinero en reparaciones futuras."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-typescript-plain"></i>
                 </div>
@@ -178,7 +341,10 @@
                   <div class="skill-level" style="width: 90%"></div>
                 </div>
               </div>
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="El motor rápido detrás de tu aplicación: procesa datos velozmente y crece con tu negocio."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-nodejs-plain"></i>
                 </div>
@@ -187,7 +353,10 @@
                   <div class="skill-level" style="width: 95%"></div>
                 </div>
               </div>
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="Herramienta de Google para construir interfaces que funcionan perfecto y responden rápido a los usuarios."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-angular-plain"></i>
                 </div>
@@ -196,7 +365,10 @@
                   <div class="skill-level" style="width: 92%"></div>
                 </div>
               </div>
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="Base de datos flexible: guarda tu información de cualquier forma, crece sin límites."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-mongodb-plain"></i>
                 </div>
@@ -205,13 +377,28 @@
                   <div class="skill-level" style="width: 90%"></div>
                 </div>
               </div>
+              <div
+                class="skill-item"
+                data-tippy-content="Levanta tu backend con JavaScript: desarrollo rápido y código consistente en todo."
+              >
+                <div class="skill-icon-wrapper">
+                  <i class="devicon-javascript-plain"></i>
+                </div>
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 95%"></div>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="skills-category">
             <h3>Frontend y Estilos</h3>
             <div class="skills-grid">
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="La estructura correcta para que tu sitio funcione en cualquier dispositivo y los buscadores te encuentren."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-html5-plain"></i>
                 </div>
@@ -220,7 +407,10 @@
                   <div class="skill-level" style="width: 95%"></div>
                 </div>
               </div>
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="Forma de organizar el CSS que hace fácil mantener y crecer tu sitio sin romper cosas."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-sass-original"></i>
                 </div>
@@ -229,7 +419,10 @@
                   <div class="skill-level" style="width: 88%"></div>
                 </div>
               </div>
-              <div class="skill-item">
+              <div
+                class="skill-item"
+                data-tippy-content="Tu sitio se ve perfecto en cualquier pantalla: teléfono, tablet o computadora."
+              >
                 <div class="skill-icon-wrapper">
                   <i class="devicon-css3-plain"></i>
                 </div>
@@ -244,39 +437,66 @@
           <div class="skills-category">
             <h3>Herramientas y Habilidades Adicionales</h3>
             <div class="skills-tags">
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Hacer que tu sitio cargue rápido: menos tiempo de espera = más clientes felices."
+              >
                 <i class="devicon-webpack-plain"></i>
                 <span>Webpack</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Historial seguro de cambios; colabora sin miedo a perder nada y vuelve atrás cuando lo necesites."
+              >
                 <i class="devicon-git-plain"></i>
                 <span>Git y Control de Versiones</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Backend sólido y probado para sitios y apps dinámicas que puedes desplegar rápido."
+              >
                 <i class="devicon-php-plain"></i>
                 <span>PHP</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Automatización para subir cambios de forma segura y rápida, reduciendo errores y costos."
+              >
                 <i class="devicon-docker-plain"></i>
                 <span>Docker</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Puente para que tus sistemas hablen solos y compartan datos sin tareas manuales."
+              >
                 <span class="tag-icon">REST</span>
                 <span>APIs REST</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Pase de seguridad digital: tus usuarios se identifican de forma segura sin exponer sus datos."
+              >
                 <span class="tag-icon">JWT</span>
                 <span>Autenticación</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Forma de trabajar donde el equipo se adapta rápido, entrega poco a poco y cambia sobre la marcha."
+              >
                 <span class="tag-icon">Agile</span>
                 <span>Agile/Scrum</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Construcción y personalización de tiendas en Shopify sin empezar de cero, lista para vender rápido."
+              >
                 <span class="tag-icon">Shop</span>
                 <span>Shopify Dev</span>
               </span>
-              <span class="tag">
+              <span
+                class="tag"
+                data-tippy-content="Conecta tus herramientas favoritas para automatizar tareas repetitivas. Ahorra días de trabajo manual."
+              >
                 <span class="tag-icon">n8n</span>
                 <span>Automatización</span>
               </span>
@@ -304,27 +524,68 @@
               </p>
               <ul class="responsibilities">
                 <li>
-                  Desarrollar y mantener aplicaciones web full-stack usando MEAN
-                  stack
+                  Desarrollar y mantener aplicaciones web
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Lo que ven tus clientes + el motor que hace que todo funcione. Una sola persona que maneja todo."
+                    >full-stack</span
+                  >
+                  usando
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Cuatro tecnologías que trabajan juntas: MongoDB guarda tus datos, Node.js los procesa, Express los envía, y Angular los muestra. Una combinación perfecta para apps modernas."
+                    >MEAN stack</span
+                  >
                 </li>
                 <li>
-                  Diseñar e implementar APIs RESTful con Node.js y Express
+                  Diseñar e implementar
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Conexión que permite que tus sistemas 'hablen' entre sí automáticamente para intercambiar datos sin trabajo manual."
+                    >APIs RESTful</span
+                  >
+                  con Node.js y Express
                 </li>
                 <li>
-                  Construir interfaces de usuario dinámicas y responsivas con
-                  Angular y JavaScript moderno
+                  Construir interfaces de usuario dinámicas y
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Tu sitio se ve perfecto en cualquier pantalla: teléfono, tablet o computadora."
+                    >responsivas</span
+                  >
+                  con Angular y JavaScript moderno
                 </li>
                 <li>
                   Implementar sistemas de autenticación y autorización usando
-                  Passport.js y JWT
+                  Passport.js y
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Pase de seguridad digital: tus usuarios se identifican de forma segura sin exponer sus datos."
+                    >JWT</span
+                  >
                 </li>
                 <li>
                   Colaborar con equipos multidisciplinarios en un ambiente
-                  Agile/Scrum
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Forma de trabajar donde el equipo se adapta rápido, entrega poco a poco, y cambia sobre la marcha según se necesita."
+                    >Agile/Scrum</span
+                  >
                 </li>
                 <li>
-                  Optimizar rendimiento y asegurar calidad de código a través de
-                  patrones de diseño y mejores prácticas
+                  Optimizar
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Qué tan rápido tu app responde y cumple con lo que le pides."
+                    >rendimiento</span
+                  >
+                  y asegurar calidad de código a través de
+                  <span
+                    class="tech-term"
+                    data-tippy-content="Soluciones probadas para problemas comunes de programación que hacen tu código más fuerte y rápido."
+                    >patrones de diseño</span
+                  >
+                  y mejores prácticas
                 </li>
               </ul>
             </div>
@@ -350,7 +611,18 @@
               </p>
               <p class="description">
                 Persiguiendo conocimiento avanzado en metodologías de desarrollo
-                de software, diseño de bases de datos y arquitectura
+                de software, diseño de
+                <span
+                  class="tech-term"
+                  data-tippy-content="El lugar donde guarda tu aplicación toda la información importante de forma organizada."
+                  >bases de datos</span
+                >
+                y
+                <span
+                  class="tech-term"
+                  data-tippy-content="El plano de tu aplicación: cómo se organiza todo para que funcione bien, sea fácil de cambiar, y no tenga problemas cuando crece."
+                  >arquitectura</span
+                >
                 empresarial.
               </p>
             </div>
@@ -359,16 +631,27 @@
           <div class="education-item">
             <div class="education-icon">📚</div>
             <div class="education-content">
-              <h3>Técnico en Desarrollo de Software</h3>
+              <h3>Técnologo en Desarrollo de Software</h3>
               <p class="institution">
-                Centro de Enseñanza Técnica Industrial (CETIS)
+                Centro de Enseñanza Técnica Industrial (CETI)
               </p>
               <p class="period">
                 2016 – 2020 <span class="badge">Completado</span>
               </p>
               <p class="description">
-                Capacitación técnica integral en fundamentos de desarrollo de
-                software, tecnologías web y mejores prácticas de la industria.
+                Entendimiento técnica integral en fundamentos de desarrollo de
+                software, tecnologías web,
+                <span
+                  class="tech-term"
+                  data-tippy-content="Estándares que la industria sigue para escribir código que funciona, dura años y es fácil de cambiar."
+                  >mejores prácticas</span
+                >
+                de la industria. Y entendimiento profundo de las tecnologías y
+                <span
+                  class="tech-term"
+                  data-tippy-content="El estudio de algoritmos, estructuras de datos y principios fundamentales que hacen que el software funcione."
+                  >ciencias de la computación.
+                </span>
               </p>
             </div>
           </div>
@@ -398,7 +681,11 @@
                 <span>CSS</span>
               </div>
               <div class="project-links">
-                <a href="https://goldensub.com" class="btn-link"
+                <a
+                  href="https://goldensub.com"
+                  class="btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Ver Proyecto</a
                 >
               </div>
@@ -420,10 +707,20 @@
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
-                <span>Animations</span>
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Efectos visuales y transiciones suaves que hacen tu sitio se vea pulido y profesional."
+                    >Animaciones</span
+                  ></span
+                >
               </div>
               <div class="project-links">
-                <a href="https://fragariagourmet.com" class="btn-link"
+                <a
+                  href="https://fragariagourmet.com"
+                  class="btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Ver Proyecto</a
                 >
               </div>
@@ -442,12 +739,34 @@
                 servicios, equipo y formulario de contacto.
               </p>
               <div class="tech-stack">
-                <span>Animations</span>
-                <span>Autogestionadle</span>
-                <span>Responsive</span>
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Efectos visuales y transiciones suaves que hacen tu sitio se vea pulido y profesional."
+                    >Animaciones</span
+                  ></span
+                >
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Tu cliente puede actualizar y cambiar el contenido sin necesidad de llamarte cada vez."
+                    >Autogestionable</span
+                  ></span
+                >
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Tu sitio se ve perfecto en cualquier pantalla: teléfono, tablet o computadora."
+                    >Responsivo</span
+                  ></span
+                >
               </div>
               <div class="project-links">
-                <a href="https://cpfa.goldenboost.io" class="btn-link"
+                <a
+                  href="https://cpfa.goldenboost.io"
+                  class="btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Ver Proyecto</a
                 >
               </div>
@@ -462,18 +781,63 @@
             <div class="project-content">
               <h3>Kat germany</h3>
               <p>
-                Tienda online de autopartes. Desarrollo en Shopify con
-                integración de API personalizada y funcionalidades de búsqueda
-                avanzada.
+                Tienda online de autopartes. Desarrollo en
+                <span
+                  class="tech-term"
+                  data-tippy-content="Plataforma que hace fácil crear una tienda online sin necesidad de programar desde cero."
+                  >Shopify</span
+                >
+                con integración de
+                <span
+                  class="tech-term"
+                  data-tippy-content="Conexión personalizada que permite que tu tienda se sincronice automáticamente con otras herramientas."
+                  >API personalizada</span
+                >
+                y funcionalidades de
+                <span
+                  class="tech-term"
+                  data-tippy-content="Tus clientes pueden filtrar y encontrar exactamente lo que buscan con múltiples opciones."
+                  >búsqueda avanzada</span
+                >.
               </p>
               <div class="tech-stack">
-                <span>Shopify</span>
-                <span>E-commerce</span>
-                <span>API personalizada</span>
-                <span>Busqueda avanzada</span>
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Plataforma que hace fácil crear una tienda online sin necesidad de programar desde cero."
+                    >Shopify</span
+                  ></span
+                >
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Tienda online donde tus clientes pueden explorar y comprar productos directamente en tu web."
+                    >E-commerce</span
+                  ></span
+                >
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Conexión personalizada que permite que tu tienda se sincronice automáticamente con otras herramientas."
+                    >API personalizada</span
+                  ></span
+                >
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Tus clientes pueden filtrar y encontrar exactamente lo que buscan con múltiples opciones."
+                    >Busqueda avanzada</span
+                  ></span
+                >
               </div>
               <div class="project-links">
-                <a href="img/kat-germany.png" class="btn-link">Ver Proyecto</a>
+                <a
+                  href="img/kat-germany.png"
+                  class="btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver Proyecto</a
+                >
               </div>
             </div>
           </div>
@@ -487,17 +851,36 @@
               <h3>Aeto</h3>
               <p>
                 WEB con presentacion tipo diapositivas. Panel de control con
-                gráficas en tiempo real. Visualización de datos y análisis con
-                Chart.js.
+                gráficas en
+                <span
+                  class="tech-term"
+                  data-tippy-content="Information updates instantly as events happen, without waiting for a page refresh."
+                  >tiempo real</span
+                >. Visualización de datos y análisis con
+                <span
+                  class="tech-term"
+                  data-tippy-content="Herramienta para crear gráficas y tablas visuales que muestran datos de forma fácil de entender."
+                  >Chart.js</span
+                >.
               </p>
               <div class="tech-stack">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
-                <span>Chart.js</span>
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Herramienta para crear gráficas y tablas visuales que muestran datos de forma fácil de entender."
+                    >Chart.js</span
+                  ></span
+                >
               </div>
               <div class="project-links">
-                <a href="https://aeto.goldensubdev.com" class="btn-link"
+                <a
+                  href="https://aeto.goldensubdev.com"
+                  class="btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Ver Proyecto</a
                 >
               </div>
@@ -510,15 +893,44 @@
               <img src="img/chat.png" alt="Proyecto Chat en Tiempo Real" />
             </div>
             <div class="project-content">
-              <h3>Chat en Tiempo Real</h3>
+              <h3>
+                Chat en
+                <span
+                  class="tech-term"
+                  data-tippy-content="La información se actualiza instantáneamente mientras pasa, sin esperar a refrescar la página."
+                  >Tiempo Real</span
+                >
+              </h3>
               <p>
-                Aplicación de mensajería instantánea con WebSockets.
-                Comunicación en tiempo real entre usuarios.
+                Aplicación de mensajería instantánea con
+                <span
+                  class="tech-term"
+                  data-tippy-content="Línea directa de comunicación entre el navegador del usuario y el servidor para actualizaciones instantáneas."
+                  >WebSockets</span
+                >. Comunicación en
+                <span
+                  class="tech-term"
+                  data-tippy-content="La información se actualiza instantáneamente mientras pasa, sin esperar a refrescar la página."
+                  >tiempo real</span
+                >
+                entre usuarios.
               </p>
               <div class="tech-stack">
-                <span>Socket.io</span>
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Tecnología que permite mensajería bidireccional instantánea entre la app y los usuarios."
+                    >Socket.io</span
+                  ></span
+                >
                 <span>Node.js</span>
-                <span>React</span>
+                <span
+                  ><span
+                    class="tech-term"
+                    data-tippy-content="Librería JavaScript para construir interfaces que responden rápido a cada acción del usuario."
+                    >React</span
+                  ></span
+                >
               </div>
               <div class="project-links"></div>
             </div>
@@ -619,5 +1031,10 @@
         "image": "https://angelzaragoza.dev/favicon.svg"
       }
     </script>
+
+    <!-- Tippy.js Scripts for Educational Tooltips -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

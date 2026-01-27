@@ -25,6 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Flotación suave de la foto en el hero
+  const heroPhotoFrame = document.querySelector(".hero-photo-frame");
+  if (heroPhotoFrame) {
+    gsap.to(heroPhotoFrame, {
+      y: 12,
+      duration: 3.5,
+      ease: "sine.inOut",
+      repeat: -1,
+      yoyo: true,
+    });
+  }
+
   // ==================== REVELACIÓN DE SECCIONES ====================
   // Animaciones de fade-in y slide-up para las secciones principales
   const sections = [
@@ -273,5 +285,30 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
       }
     });
+  });
+
+  // ==================== EDUCATIONAL TOOLTIPS (TIPPY.JS) ====================
+  // Initialize Tippy.js for business-value educational tooltips
+  const tooltipElements = document.querySelectorAll("[data-tippy-content]");
+
+  tooltipElements.forEach((element) => {
+    tippy(element, {
+      content: element.getAttribute("data-tippy-content"),
+      theme: "glass",
+      placement: "top",
+      animation: "shift-away",
+      arrow: true,
+      duration: [300, 250],
+      inertia: true,
+      interactiveDebounce: 75,
+      touch: ["hold", 500],
+      appendTo: document.body,
+    });
+
+    // Accesibilidad: agregar aria-label para lectores de pantalla
+    const tooltipText = element.getAttribute("data-tippy-content");
+    if (tooltipText) {
+      element.setAttribute("aria-label", tooltipText);
+    }
   });
 });
